@@ -1,0 +1,15 @@
+{
+    "version":"0.2.0",
+    "configurations": [
+        {
+            "name": "Debug C Program",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/ex00/a.out",
+            "args": ["4 3 2 1 1 2 2 2 4 3 2 1 1 2 2 2"],
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "MIMode": "gdb",
+        }
+    ]
+}
